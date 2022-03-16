@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5372F0;
+}
+.wrapper{
+    min-width: 40%;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 30px 50px 30px;
+}
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+}
+.wrapper form{
+    margin: 40px 0;
+}
+form input{
+    height: 50px;
+    width: 100%;
+    padding: 0 45px;
+    border: 1px solid #bfbfbf;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    border-bottom-width:2px ;
+}
+form input::placeholder{
+    color: #bfbfbf;
+    font-size: 17px;
+}
+form .field .input-area{
+    position: relative;
+}
+form .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+form .field i{
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+form .field .icon{
+    left: 15px;
+    color: #bfbfbf;
+}
+form .field .error-icon{
+    right: 15px;
+    color: #dc3545;
+}
+form .field .error-txt{
+    color: #dc3545;
+    margin-top: 5px;
+    text-align: left;
+}
+form .field .error {
+    display: none;
+}
+form .pass-link{
+    text-align: left;
+    margin-top: -10px;
+}
+.wrapper a{
+    color: #5372F0;
+    text-decoration: none;
+}
+
+.wrapper a:hover{
+    color: #0938f7;
+    text-decoration: underline;
+}
